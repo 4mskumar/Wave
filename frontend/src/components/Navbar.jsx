@@ -6,7 +6,7 @@ import { IoNotificationsOutline } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div>
-      <nav className="px-15 py-6 flex items-center justify-between shadow-sm">
+      <nav className=" px-15 py-6 flex items-center justify-between shadow-sm">
         <div className="flex items-center gap-3">
           {/* <img src="" alt="w" /> */}
           <h1 className="cedarville font-semibold text-3xl text-blue-500">WAVE</h1>
