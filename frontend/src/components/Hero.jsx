@@ -20,6 +20,15 @@ const Hero = () => {
       image:
         "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
+    {
+      id: 2,
+      name: "Courtney Henry",
+      avatar: "https://randomuser.me/api/portraits/men/2.jpg",
+      time: "8 Aug at 2:15 PM",
+      text: "Had an amazing hike yesterday ⛰️",
+      image:
+        "https://images.unsplash.com/photo-1529070538774-1843cb3265df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    },
   ]);
 
   const [newPost, setNewPost] = useState("");
@@ -43,7 +52,8 @@ const Hero = () => {
       <div className="bg-white shadow rounded-2xl p-4 mb-6">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center font-semibold">
-            JB
+            AK
+            
           </div>
           <input
             type="text"
@@ -60,15 +70,12 @@ const Hero = () => {
           </button>
         </div>
       </div>
-
-      {/* Feed Posts */}
       <div className="space-y-6">
         {posts.map((post) => (
           <div
             key={post.id}
             className="bg-white shadow rounded-2xl p-4 flex flex-col gap-3"
           >
-            {/* Post Header */}
             <div className="flex items-center gap-3">
               <img
                 src={post.avatar}
@@ -80,11 +87,7 @@ const Hero = () => {
                 <p className="text-xs text-gray-500">{post.time}</p>
               </div>
             </div>
-
-            {/* Post Text */}
             {post.text && <p className="text-gray-700">{post.text}</p>}
-
-            {/* Post Image */}
             {post.image && (
               <img
                 src={post.image}

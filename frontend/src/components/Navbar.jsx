@@ -28,9 +28,9 @@ const Navbar = () => {
 
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center font-semibold text-sm cursor-pointer hover:bg-blue-400">
-              JB
+              AK
             </div>
-            <h2 className="font-medium text-lg">Jakob Boman</h2>
+            <h2 className="font-medium text-lg">Aditya Kr</h2>
           </div>
         </div>
       </nav>

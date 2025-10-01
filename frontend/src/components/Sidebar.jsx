@@ -4,16 +4,16 @@ import { HiOutlineHome } from "react-icons/hi";
 
 const Sidebar = () => {
   return (
-    <div className=" w-80 border-r border-gray-400 h-screen bg-white px-15 py-10 flex flex-col justify-between">
+    <div className=" w-72 border-r border-gray-300 shadow-lg min-h-screen bg-white pl-10 pr-15 py-10 flex flex-col justify-between">
       <div>
         {/* Profile */}
         <div className="flex items-center gap-3 mb-6">
           <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center font-semibold text-lg">
-            JB
+            AK
           </div>
           <div>
-            <h2 className="font-semibold text-xl">Jakob Boman</h2>
-            <p className="text-gray-500 text-xs">@jakoboman</p>
+            <h2 className="font-semibold text-xl">Aditya Kr</h2>
+            <p className="text-gray-500 text-xs">@adityakr</p>
           </div>
         </div>
 

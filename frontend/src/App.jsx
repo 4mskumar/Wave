@@ -8,7 +8,9 @@ function App() {
     <>
       <Navbar />
       <div className="app-layout">
-        <Sidebar />
+        
+          <Sidebar />
+        
         <Hero />
       </div>
     </>

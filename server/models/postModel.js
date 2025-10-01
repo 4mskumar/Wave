@@ -13,7 +13,7 @@ const PostSchema = new mongoose.Schema(
     userId: { type: String, required: true }, // Clerk userId
     caption: { type: String, default: "" },
     imageUrl: { type: String, required: true },
-    likes: [{ type: String }], // Clerk userIds
+    likes: [{ type: String }], 
     comments: [CommentSchema],
   },
   { timestamps: true }
